@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section id="header">
+        <a href="index.html" id="ok"><img src="img/logo1.png" alt="Logo"></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li id="lg-bag"><a class="active" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <!--Home Page-->
+    <section id="page-header" class="about-header">
+        <h2>#HayNoiChungToi</h2>
+        <p>Để lại lời nhắn, chúng tôi rất thích nghe từ bạn </p>
+    </section>
+
+    <!-- Cart Page-->
+     <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>LOẠI BỎ</td>
+                    <td>HÌNH ẢNH</td>
+                    <td>SẢN PHẨM</td>
+                    <td>GIÁ BÁN</td>
+                    <td>SỐ LƯỢNG</td>
+                    <td>TỔNG THU</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f1.jpg " alt=""</td>
+                    <td>Safari Pattern Shirt</td>
+                    <td>$78</td>
+                    <td><input type="number" value="1"</td>
+                    <td>$78</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f2.jpg " alt=""</td>
+                    <td>Tropical Leaf Shirt</td>
+                    <td>$70</td>
+                    <td><input type="number" value="1"</td>
+                    <td>$70</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f3.jpg " alt=""</td>
+                    <td>Vintage Floral Shirt</td>
+                    <td>$72</td>
+                    <td><input type="number" value="1"</td>
+                    <td>$72</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f4.jpg " alt=""</td>
+                    <td>Blossom White Shirt</td>
+                    <td>$68</td>
+                    <td><input type="number" value="1"</td>
+                    <td>$68</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f5.jpg " alt=""</td>
+                    <td>Navy Bloom Shirt</td>
+                    <td>$63</td>
+                    <td><input type="number" value="1"</td>
+                    <td>$63</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f6.jpg " alt=""</td>
+                    <td>Classic Duo Shirt</td>
+                    <td>$80</td>
+                    <td><input type="number" value="1"</td>
+                    <td>$80</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f7.jpg " alt=""</td>
+                    <td>Embroidered Linen Pants</td>
+                    <td>$75</td>
+                    <td><input type="number" value="1"</td>
+                    <td>$75</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f8.jpg " alt=""</td>
+                    <td>Vintage Cat Long Sleeve</td>
+                    <td>$90</td>
+                    <td><input type="number" value="1"</td>
+                    <td>$90</td>
+                </tr>
+            </tbody>
+        </table>
+     </section>
+
+    <!-- Cart Add-->
+     <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>ÁP DỤNG PHIẾU GIẢM GIÁ </h3>
+            <div>
+                <input type="text" placeholder="Nhập phiếu giảm giá của bạn">
+                <button class="normal">Áp dụng</button>
+            </div>
+        </div>
+        <div id="subtotal">
+            <h3>Tổng giỏ hàng</h3>
+            <table>
+                <tr>
+                    <td>Tổng thu</td>
+                    <td>$800</td>
+                </tr>
+                <tr>
+                    <td>Phí vận chuyển</td>
+                    <td>Miễn Phí</td>
+                </tr>
+                <tr>
+                    <td><strong>Tổng</strong></td>
+                    <td><strong>$800</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Tiến hành kiểm tra</button>
+        </div>
+     </section>
+
+    <!--Footer-->
+    <footer id="section-p1">
+        <a href="#" id="ok"><img src="img/logo1.png" alt="Logo"></a>
+        <div class="col">
+            <h4>Thông Tin Liên Hệ</h4>
+            <p><strong>Địa chỉ:</strong> VietNam, Ha Noi, Cau Giay</p>
+            <p><strong>Số điện thoai:</strong>(+84)862932530 / 0946592540</p>
+            <p><strong>Giờ:</strong> 09:00 - 18:00, Mon - Sat</p>
+            <div class="follow">
+                <h4>Theo chúng tôi</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>Liên Hệ</h4>
+            <a href="about.html">Về chúng tôi</a>
+            <a href="cart.html">Thông tin giao hàng</a>
+            <a href="#">Chính sách bảo mật</a>
+            <a href="#">Điều khoản & Điều kiện</a>
+            <a href="contact.html">Liên hệ chúng tôi</a>
+        </div>
+        <div class="col">
+            <h4>Tài khoản của chúng tôi</h4>
+            <a href="login.html">Đăng nhập</a>
+            <a href="cart.html">Xem giỏ hàng</a>
+            <a href="shop.html">Sản phẩm yêu thích</a>
+            <a href="cart.html">Theo dõi đơn hàng của chúng tôi</a>
+            <a href="contact.html">Hỗ trợ</a>
+        </div>
+        <div class="col install">
+            <h4>Tải Ứng Dụng</h4>
+            <p>Từ App Store hoặc Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>Cổng thanh toán an toàn</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+        <div class="copyright">
+            <p>© 2025, Doha</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
